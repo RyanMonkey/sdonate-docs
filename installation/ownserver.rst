@@ -10,9 +10,9 @@ Requirements
 ------------------------
 Before installing SDonate, you should check that your web server has the following requirements for SDonate to work.
 
-*PHP >= 5.5
-*MySQL
-*PDO
+* PHP >= 5.5
+* MySQL
+* PDO
 
 SDonate also requires access to some functions that some hosts may block. To check these functions work, download https://sdonate.com/downloads/compatibilitychecker.zip then unzip it into the root folder of your web host (usually called "public_html" or "public"), then go to http://<yourdomain.tld>/compatibilitychecker.php (for example, if your domain is "myamazingdomain.com", go to http://myamazingdomain.com/compatibilitychecker.php). If everything is alright, it will say your host is compatible, otherwise you will need to contact your host to fix any issues or find a new host.
 
