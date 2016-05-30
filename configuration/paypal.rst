@@ -56,7 +56,9 @@ Now go to your SDonate account page, click on "Update PayPal Sandbox API Setting
 
 Setting up PayPal for "Credit Only" mode
 --------------------------------------------------
-To set up PayPal using "Credit Only" mode, go to the "General Settings" tab of the admin dashboard, then change "Payment Mode" to "Credit Only", and enter your PayPal email address under "PayPal Email", then save. That's it, PayPal is setup!
+To set up PayPal using "Credit Only" mode, go to the "General Settings" tab of the admin dashboard, then change "Payment Mode" to "Credit Only", and enter your PayPal email address under "PayPal Email", then save.Now, sign into your PayPal account here: https://www.paypal.com/cgi-bin/customerprofileweb?cmd=_profile-pref and make sure your settings look the same as the picture below, then click “Save”.
+
+.. image:: pppics/11.png
 
 Testing PayPal
 -----------------------------
