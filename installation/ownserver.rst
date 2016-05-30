@@ -68,7 +68,11 @@ In "config.php", next to `$currencycode` you will need to enter the currency cod
 .. warning::
     StarPass is only available as a payment method if you select "EUR" as the main currency.
 
-6. Creating the folder on your web host
+6. Setting up Google reCAPTCHA (OPTIONAL)
+--------------------------------------------
+Google reCAPTCHA is a captcha system which prevents brute-force log in attempts. If you wish to only allow people to log in through Steam you can skip this step as it will have no benefit. If you wish to allow people to log in using a username and password, you should complete this to make your site more secure. To set it up go to https://www.google.com/recaptcha/admin and sign in using a Google account, or register if you don't have one. Where it says "Register a new site", enter anything you want under "Label" and enter your domain name under "Domains" and click register. On the next page, under "Keys" you will be given a Site Key and a Secret Key. Enter the Site Key next to `$recaptchasitekey` in "config.php" and the Secret Key next to `$recaptchasecretkey`.
+
+7. Creating the folder on your web host
 ------------------------------------------------
 On your web host, in the public folder (usually called "public", "public_html" or sometimes just "www"), create a folder for SDonate to go in. Now, using FTP or your web host's build-in file browser upload everything from INSIDE the "web" folder into the folder you just created. When this is done, navigate to http://<yourdomain.tld>/<yourfolder>/install.php to complete installation, so if your domain is "myamazingdomain.com" and the folder you created is called "donate", you'd go to http://myamazingdomain.com/donate/install.php. If all is well it will just say "Installation complete!", and if not, it will tell you what is wrong.
 
