@@ -1,4 +1,4 @@
-Installation - Garry's Mod Server
+Installation - Garry's Mod Addon
 ========================================
 
 Before using SDonate with a Garry's Mod server you must install the SDonate Garry's Mod addon on your server.

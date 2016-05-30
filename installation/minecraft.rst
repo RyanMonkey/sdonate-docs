@@ -1,4 +1,4 @@
-Installation - Minecraft Server
+Installation - Minecraft Plugin
 ========================================
 
 Before using SDonate with a Minecraft server you must install the SDonate Minecraft plugin on your server.
