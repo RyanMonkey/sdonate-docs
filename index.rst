@@ -29,3 +29,10 @@ Contents:
     installation/minecraft
 
     installation/othergames
+
+
+.. toctree::
+    :maxdepth: 2
+    :caption: Configuration
+
+    configuration/general
