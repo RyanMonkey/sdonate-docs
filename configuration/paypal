@@ -12,47 +12,47 @@ Setting up PayPal for "Default" mode
 ------------------------------------------------
 Sign into your PayPal account here: https://www.paypal.com/cgi-bin/customerprofileweb?cmd=_profile-pref and make sure your settings look the same as the picture below, then click "Save".
 
-.. image:: pics/11.png
+.. image:: pppics/11.png
 
 Now go here: https://www.paypal.com/cgi-bin/customerprofileweb?cmd=_profile-api-access and login to your PayPal account, then click on "Request API Credentials".
 
-.. image:: pics/1.png
+.. image:: pppics/1.png
 
 Now make sure "Request API Signature" is checked, then click on "Agree and Submit".
 
-.. image:: pics/2.png
+.. image:: pppics/2.png
 
 Now login using your Steam account at sdonate.com and go to your account page. Scroll down to "PayPal API Settings" and click on "Update PayPal API Settings".
 
-.. image:: pics/4.png
+.. image:: pppics/4.png
 
 Copy the "API Username", "API Password" and "Signature" generated on PayPal into the corresponding fields on the SDonate account page, then click "Update PayPal API Credentials".
 
-.. image:: pics/3.png
+.. image:: pppics/3.png
 
-.. image:: pics/5.png
+.. image:: pppics/5.png
 
 Now go to https://developer.paypal.com/ and log in using your PayPal account, then click on "Dashboard", then click on "Account" under Sandbox at the left side.
 
-.. image:: pics/6.png
+.. image:: pppics/6.png
 
 Now click on "Create Account" at the top right.
 
-.. image:: pics/7.png
+.. image:: pppics/7.png
 
 Select "Business (Merchant Account)" as the account type and MAKE SURE THE COUNTRY USES THE SAME CURRENCY AS YOUR MAIN STORE CURRENCY. Enter your email address (you can use the same one as your main PayPal account) and enter a password, then click on Create Account.
 
-.. image:: pics/8.png
+.. image:: pppics/8.png
 
 Now do the same again but this time choose "Personal (Buyer Account)" as the account type.
 
 Once you have created both Sandbox accounts, click on "Profile" under the BUSINESS account.
 
-.. image:: pics/9.png
+.. image:: pppics/9.png
 
 Now go to your SDonate account page, click on "Update PayPal Sandbox API Settings", then enter these details and submit
 
-.. image:: pics/10.png
+.. image:: pppics/10.png
 
 Setting up PayPal for "Credit Only" mode
 --------------------------------------------------
