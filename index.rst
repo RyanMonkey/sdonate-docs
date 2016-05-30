@@ -35,4 +35,4 @@ Contents:
     :maxdepth: 2
     :caption: Configuration
 
-    configuration/general
+    configuration/paymentmethods
