@@ -13,6 +13,8 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
+   :caption: Installation - Website
+
    installation/webstore
 
    installation/ownserver
