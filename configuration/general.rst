@@ -5,10 +5,14 @@ To configure SDonate you will need to log in to your web store using the admin a
 
 .. toctree::
     :maxdepth: 2
-    :caption: SDonate Configuration
+    :caption: Payment Methods Configuration
 
     paypal
 
     starpass
+
+.. toctree::
+    :maxdepth: 2
+    :caption: General Configuration
 
     addserver
