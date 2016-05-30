@@ -6,7 +6,7 @@
 SDonate Documentation
 ===================================
 
-SDonate is an easy to use automated donation store system for Garry's Mod, Minecraft, Rust, Ark: Survival Evolved and other Source engine games.
+SDonate is an easy to use automated donation store system for Garry's Mod, Minecraft, Rust, Ark: Survival Evolved and other Source engine games. Here you will find documentation on installing and configuring SDonate.
 
 Contents:
 
@@ -19,3 +19,13 @@ Contents:
    installation/webstore
 
    installation/ownserver
+
+.. toctree::
+    :maxdepth: 2
+    :caption: Installation - Game Server
+
+    installation/gmod
+
+    installation/minecraft
+
+    installation/othergames
