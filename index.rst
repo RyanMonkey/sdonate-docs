@@ -14,6 +14,8 @@ Contents:
    :maxdepth: 2
    :caption: Installation - Website
 
+   installation/apikey
+
    installation/webstore
 
    installation/ownserver
