@@ -32,6 +32,16 @@ Contents:
 
 .. toctree::
     :maxdepth: 2
+    :caption: Updating
+
+    updating/web
+
+    updating/gmod
+
+    updating/minecraft
+
+.. toctree::
+    :maxdepth: 2
     :caption: Configuration
 
     configuration/admin
