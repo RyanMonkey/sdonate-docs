@@ -35,4 +35,6 @@ Contents:
     :maxdepth: 2
     :caption: Configuration
 
+    configuration/admin
+
     configuration/paymentmethods
