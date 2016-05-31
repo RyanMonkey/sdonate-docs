@@ -1,7 +1,8 @@
 Actions - Minecraft
 ==========================
 
-**Console Command**
+Console Command
+-------------------------------------
 
 Run a console command on the player.
 

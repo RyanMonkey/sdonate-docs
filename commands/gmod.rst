@@ -1,7 +1,8 @@
 Actions - Garry's Mod
 ==========================
 
-**Console Command**
+Console Command
+-------------------------------------
 
 Run a console command on the player.
 
@@ -10,7 +11,8 @@ Parameters:
 * Command - The console command to run.
 * Package Expiry Command - The command to run when the package expires or when the package is revoked.
 
-**Custom LUA**
+Custom LUA
+-------------------------------------
 
 Run a custom LUA command.
 
@@ -19,7 +21,8 @@ Parameters:
 * LUA - The LUA code to run.
 * Package Expiry LUA - The LUA code to run when the package expires or when the package is revoked.
 
-**Add To Group**
+Add To Group
+-------------------------------------
 
 Add the user to the specified group. Make sure to choose the right one for the admin mod your server is using.
 
@@ -27,7 +30,8 @@ Parameters:
 
 * Rank - The rank to give the user. Note that for Assmod this must be the rank number and for all other mods it must be the rank name.
 
-**DarkRP Add Money**
+DarkRP Add Money
+-------------------------------------
 
 Give the user the specified amount of money in DarkRP.
 
@@ -35,7 +39,8 @@ Parameters:
 
 * Money - The amount of money to give the user.
 
-**DarkRP Custom Job**
+DarkRP Custom Job
+-------------------------------------
 
 Create a custom job in DarkRP.
 
@@ -48,7 +53,8 @@ Parameters:
 * Salary - This job's salary.
 * Has License - Whether this job has a weapon license. Enter 0 for no and 1 for yes.
 
-**Pointshop 1 Points**
+Pointshop 1 Points
+-------------------------------------
 
 Give the user the specified amount points in Pointshop 1.
 
@@ -56,7 +62,8 @@ Parameters:
 
 * Points - The amount of points to give the user.
 
-**Pointshop 2 Standard Points**
+Pointshop 2 Standard Points
+-------------------------------------
 
 Give the user the specified amount of standard points in Pointshop 2.
 
@@ -64,7 +71,8 @@ Parameters:
 
 * Points - The amount of standard points to give the user.
 
-**Pointshop 2 Premium Points**
+Pointshop 2 Premium Points
+-------------------------------------
 
 Give the user the specified amount of premium points in Pointshop 2.
 
@@ -72,7 +80,8 @@ Parameters:
 
 * Points - The amount of points to give the user.
 
-**Send Chat Message to Buyer**
+Send Chat Message to Buyer
+-------------------------------------
 
 Put a message in the chatbox of the buyer.
 
@@ -81,7 +90,8 @@ Parameters:
 * Message - The message to display in the user's chatbox.
 * Expiration Message - The message to display in the user's chatbox when the package expires or is revoked.
 
-**Send Chat Message to All Players**
+Send Chat Message to All Players
+-------------------------------------
 
 Put a message in the chatbox of all players on the server.
 
