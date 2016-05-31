@@ -42,6 +42,18 @@ Contents:
 
     configuration/addpackage
 
+..toctree::
+    :maxdepth: 2
+    :caption: Commands/Actions
+
+    commands/commands
+
+    commands/gmod
+
+    commands/minecraft
+
+    commands/other
+
 .. toctree::
     :maxdepth: 1
     :caption: Fixing Common Issues
