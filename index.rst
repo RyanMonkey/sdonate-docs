@@ -40,6 +40,8 @@ Contents:
 
     configuration/addserver
 
+    configuration/addpackage
+
 .. toctree::
     :maxdepth: 1
     :caption: Fixing Common Issues
