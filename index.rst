@@ -30,7 +30,6 @@ Contents:
 
     installation/othergames
 
-
 .. toctree::
     :maxdepth: 2
     :caption: Configuration
@@ -38,3 +37,11 @@ Contents:
     configuration/admin
 
     configuration/paymentmethods
+
+    configuration/addserver
+
+.. toctree::
+    :maxdepth: 1
+    :caption: Fixing Common Issues
+
+    commonissues
