@@ -24,3 +24,6 @@ Email Settings
     * {{VAR=Store Name}} - Your store's name
 
 4. Hit "Submit" to save.
+
+.. note::
+    If you've set "Store Logo" to an image in "General Settings", it will use this logo in the emails sent, otherwise it will use the default SDonate logo.
