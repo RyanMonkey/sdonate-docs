@@ -18,6 +18,8 @@ At the side you will see various buttons which lead to different sections of the
 
     sections/theme
 
+    sections/email
+
     sections/tos
 
     sections/logs

@@ -52,6 +52,8 @@ Contents:
 
     configuration/addpackage
 
+    configuration/sections/email
+
 .. toctree::
     :maxdepth: 2
     :caption: Commands/Actions
