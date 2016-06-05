@@ -8,3 +8,7 @@ Make sure your package has at least one command added, then make sure that comma
 PayPal Error 10002 - Security header is not valid
 ---------------------------------------------------------------
 Your PayPal API credentials are incorrect, follow the instructions in :doc:`configuration/paypal` again.
+
+I've enabled Maintenance mode and now I can't disable it!
+--------------------------------------------------------------------
+Go to http://yourdomain.com/folder/login.php, or if you are using the one-click hosting and setup this will be at https://sdonate.com/stores/<yourdomain>/login.php. When you have logged in, go to http://yourdomain.com/folder/dashboard.php (https://sdonate.com/stores/<yourdomain>/login.php if using free SDonate hosting).

@@ -6,7 +6,7 @@ General Settings
 * **Maintenance Mode** - When you enable maintenance mode, users are unable to access the site to make purchases but the admin dashboard is still accessible.
 
 .. note::
-    If you've enabled maintenance mode and can't find your way back to the admin dashboard, just go to http://yourdomain.com/folder/dashboard.php. If you are using the one-click hosting and setup this will be at https://sdonate.com/stores/<yourdomain>/dashboard.php.
+    If you've enabled maintenance mode and can't find your way back to the admin dashboard, just go to http://yourdomain.com/folder/login.php, or if you are using the one-click hosting and setup this will be at https://sdonate.com/stores/<yourdomain>/login.php. When you have logged in, go to http://yourdomain.com/folder/dashboard.php (https://sdonate.com/stores/<yourdomain>/login.php if using free SDonate hosting).
 
 * **Login Mode** - This changes whether users are allowed to use username and password or Steam login, or whether they must log in using Steam only.
 
