@@ -28,6 +28,8 @@ Contents:
 
     installation/minecraft
 
+    installation/rust
+
     installation/othergames
 
 .. toctree::
