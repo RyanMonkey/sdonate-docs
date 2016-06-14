@@ -66,6 +66,8 @@ Contents:
 
     commands/minecraft
 
+    commands/rust
+
     commands/other
 
 .. toctree::
