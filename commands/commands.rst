@@ -18,4 +18,5 @@ If you have ticked "User Chooses", you can create choices for the parameter. If 
 For more info on the actions available for various games see:
     * :doc:`gmod`
     * :doc:`minecraft`
+    * :doc:`rust`
     * :doc:`other`
