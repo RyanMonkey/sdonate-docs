@@ -1,4 +1,4 @@
-Actions - Garry's Mod
+Actions - Rust
 ==========================
 
 Custom Command
