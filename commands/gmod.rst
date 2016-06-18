@@ -24,7 +24,7 @@ Parameters:
 Add To Group
 -------------------------------------
 
-Add the user to the specified group. Make sure to choose the right one for the admin mod your server is using.
+Add the user to the specified group using either ULX, FAdmin, Evolve, Assmod or ServerGuard. Make sure to choose the right one for the admin mod your server is using.
 
 Parameters:
 
