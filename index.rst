@@ -70,6 +70,8 @@ Contents:
 
     commands/other
 
+    commands/special
+
 .. toctree::
     :maxdepth: 1
     :caption: Fixing Common Issues

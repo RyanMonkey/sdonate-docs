@@ -22,3 +22,4 @@ For more info on the actions available for various games see:
     * :doc:`minecraft`
     * :doc:`rust`
     * :doc:`other`
+    * :doc:`special`

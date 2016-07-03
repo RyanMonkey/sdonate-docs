@@ -2,7 +2,7 @@ Adding a Server
 ===================
 
 .. note::
-    If you are adding a Minecraft or Garry's Mod make sure you have followed the instructions to install the relevant addon.
+    If you are adding a Minecraft or Garry's Mod make sure you have followed the instructions to install the relevant addon. If you're adding a CS:GO, TF2 or L4D2 server and want to use expiring commands you will need to install the Sourcemod plugin also.
 
 To add a server, open the SDonate admin dashboard, then go to the "Package Manager", then click the "Add Server" button. Select the game your server is for, then change the following settings:
 
@@ -14,6 +14,6 @@ To add a server, open the SDonate admin dashboard, then go to the "Package Manag
 
 * **Port** - Enter the port of your server.
 
-* **RCON Password (Not required for Garry's Mod or Minecraft servers)** - Enter the RCON password for your server.
+* **RCON Password (Not required for Garry's Mod, Minecraft servers or servers where the Sourcemod plugin is installed)** - Enter the RCON password for your server.
 
 * **Enabled** - Check this to enable the server in your store. If this is not checked the server will not show up in your store.
