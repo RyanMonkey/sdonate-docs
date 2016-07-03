@@ -19,16 +19,5 @@ Parameters:
 * DB Host - The hostname the MySQL server is running on
 * DB Name - The name of the database
 * DB Username/DB Password - The username and password of the user used to access the database
-* DB Query - The query - you can use prepared values by replacing values to prepare with a `?`
-* DB Prepared Values - The values to be prepared, seperated by a `|NEWVAL|`
-
-Custom Command (REQUIRES SOURCEMOD PLUGIN)
--------------------------------------
-
-Run a console command on the server.
-
-Parameters:
-
-* Execution Time - Choose whether the command will run as soon as the purchase is complete or when the user next joins the server, for most commands you should choose "On Join" to make sure the commands runs properly.
-* Command - The console command to run.
-* Expiration Command - The command to run when the package expires or when the package is revoked.
+* DB Query - The query - you can use prepared values by replacing values to prepare with a ``?``
+* DB Prepared Values - The values to be prepared, seperated by a ``|NEWVAL|``
