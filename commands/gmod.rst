@@ -99,3 +99,32 @@ Parameters:
 
 * Message - The message to display in all players chatboxes.
 * Expiration Message - The message to display in all players chatboxes when the package expires or is revoked.
+
+CombineControl Donation
+-------------------------------------
+
+Add a donation perk to the CombineControl donations database.
+
+Parameters:
+
+* DB Host - The hostname the MySQL server is running on
+* DB Name - The name of the database
+* DB Username/DB Password - The username and password of the user used to access the database
+* Character ID - Set this to "User Chooses" to let them enter their own character ID, or enter -1 to use Prop Limit Increase, Ragdoll Limit Increase, Scoreboard Title or Scoreboard Title Color donation types.
+* Donation Type - The type of donation perk. Valid donation types are as follows (only enter the number):
+    * 1 - Credits
+    * 2 - Strength Stat
+    * 3 - Speed Stat
+    * 4 - Toughness Stat
+    * 5 - Agility Stat
+    * 6 - Perception Stat
+    * 7 - Aim Stat
+    * 8 - All Stats (global stat boost)
+    * 9 - Custom Model
+
+    The following donation types only work if Character ID is set to -1:
+    * 1 - Prop Limit Increase
+    * 2 - Ragdoll Limit Increase
+    * 3 - Scoreboard Title
+    * 4 - Scoreboard Title Color (in the form "r g b" 0-255)
+* Donation Data - Enter the relevant data for the donation type chosen. For example, if you'd chosen "Credits" as the donation type, and enter "500" in the donation data, the person will receive 500 credits.
