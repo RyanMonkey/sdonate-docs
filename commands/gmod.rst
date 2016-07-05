@@ -123,10 +123,11 @@ Parameters:
     * 8 - All Stats (global stat boost)
     * 9 - Custom Model
 
-The following donation types only work if Character ID is set to -1:
-* 1 - Prop Limit Increase
-* 2 - Ragdoll Limit Increase
-* 3 - Scoreboard Title
-* 4 - Scoreboard Title Color (in the form "r g b" 0-255)
+    The following donation types only work if Character ID is set to -1:
+
+    * 1 - Prop Limit Increase
+    * 2 - Ragdoll Limit Increase
+    * 3 - Scoreboard Title
+    * 4 - Scoreboard Title Color (in the form "r g b" 0-255)
 
 * Donation Data - Enter the relevant data for the donation type chosen. For example, if you'd chosen "Credits" as the donation type, and enter "500" in the donation data, the person will receive 500 credits.
