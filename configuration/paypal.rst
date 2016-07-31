@@ -22,7 +22,7 @@ Now make sure "Request API Signature" is checked, then click on "Agree and Submi
 
 .. image:: pppics/2.png
 
-Now login using your Steam account at sdonate.com and go to your account page. Scroll down to "PayPal API Settings" and click on "Update PayPal API Settings".
+Now login using your Steam account at sdonate.com and go to your account page. Click on "Change PayPal Email Address" and enter the email address of the PayPal account, and submit. Now, scroll down to "PayPal API Settings" and click on "Update PayPal API Settings".
 
 .. image:: pppics/4.png
 
