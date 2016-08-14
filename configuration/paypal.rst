@@ -1,65 +1,38 @@
 Setting Up PayPal
 =============================
 
-Before setting up PayPal, you should consider what payment mode you want to use:
+SDonate's method of dealing with PayPal payments has changed so you no longer need any API details. Existing users will need to follow these instructions to ensure there store doesn't stop working.
 
-* **Default** - People pay for their package at the point of purchase. To use this mode you will need to set up your PayPal API credentials as well as PayPal sandbox accounts.
-* **Credit Only** - Setup is much more simple as you only need to enter your PayPal email address, but users need to go through the extra step of purchasing credits in order to purchase packages.
-
-You can change Payment Mode in the "General Settings" tab of the admin dashboard.
-
-Setting up PayPal for "Default" mode
+How to Set Up PayPal for SDonate
 ------------------------------------------------
-Sign into your PayPal account here: https://www.paypal.com/cgi-bin/customerprofileweb?cmd=_profile-pref and make sure your settings look the same as the picture below, then click "Save".
+1. Sign into your PayPal account at https://paypal.com.
+2. Open `this link <https://www.paypal.com/cgi-bin/customerprofileweb?cmd=_profile-ipn-notify>`_ to go to the PayPal IPN settings
+3. Click on the "Choose IPN Settings" button
+4. Under "Notification URL" enter the URL of your store's "paypalipn.php" file. If you are using SDonate's free webstore, you can find this URL on your SDonate account page, next to "PayPal IPN URL". If you are using your own web server, enter the URL of your store and add "/paypalipn.php" at the end. So, if the URL of your store is "http://myamazingsite.com/donate/", enter "http://myamazingsite.com/donate/paypalipn.php" here.
+5. Make sure "Receive IPN messages (Enabled)" is selected then click "Save".
+6. Go to https://sdonate.com and sign in, then go to "Account", then click on "Change PayPal Email Address".
+7. Enter the email address of your PayPal account here (make sure you're entering the PRIMARY address of your PayPal account, meaning if you have more than one email address on your PayPal account, use the primary one) and click "Submit".
 
-.. image:: pppics/11.png
+Test PayPal/How to Set Up PayPal Sandbox (Optional but Recommended)
+-------------------------------------------------------------------------
+If you want to test PayPal payments without using real money, you will need to set up "PayPal Sandbox".
 
-Now go here: https://www.paypal.com/cgi-bin/customerprofileweb?cmd=_profile-api-access and login to your PayPal account, then click on "Request API Credentials".
+1. You will need to create two sandbox accounts, a buyer and a seller, go to https://developer.paypal.com/ and log in using your normal PayPal account.
+2. Click on `this link <https://developer.paypal.com/developer/accounts/>`_ to go to the sandbox account page.
+3. Click on the "Create Account" button, then follow the settings guide below:
 
-.. image:: pppics/1.png
+	* **Country** - Select the country that uses the SAME CURRENCY your store uses, so for example, if your store uses GBP, make sure "United Kingdom" is selected.
+	* **Account Type** - Select "Personal (Buyer Account)"
+	* **Email Address** - Enter email address you want, this doesn't need to be verified however it must be unique, you can't use the same email twice.
+	* **Password** - Enter a password for the new account
 
-Now make sure "Request API Signature" is checked, then click on "Agree and Submit".
+4. Leave the rest of the settings as default, then click "Create Account". You've just made a test buyer account.
+5. Create another account using the same settings as before, but this time set "Account Type" to "Business (Merchant Account)". This is your sandbox seller account.
+6. Go to https://sandbox.paypal.com and log in using your SELLER sandbox account you just created then click `here <https://www.sandbox.paypal.com/uk/cgi-bin/webscr?cmd=_profile-ipn-notify>`_ to go to the IPN settings for your sandbox account.
+7. Click "Edit Settings", then under "Notification URL" enter the URL of your store's "paypalipn.php" file. If you are using SDonate's free webstore, you can find this URL on your SDonate account page, next to "PayPal IPN URL". If you are using your own web server, enter the URL of your store and add "/paypalipn.php" at the end. So, if the URL of your store is "http://myamazingsite.com/donate/", enter "http://myamazingsite.com/donate/paypalipn.php" here.
+8. Make sure "Receive IPN messages (Enabled)" is selected then click "Save".
+9. To Enable sandbox testing mode on your store, first go to https://sdonate.com and sign in, then go to "Account", then click on "Change PayPal Email Address". Enter the email address of your sandbox SELLER account and click "Submit". Now go to your store's admin dashboard then to "General Settings". Change "PayPal Sandbox" to "Enabled" and submit.
+10. To disable sandbox mode and enable real purchases go back to https://sdonate.com and change your PayPal email back to your real one, then go to your store's admin dashboard and change "PayPal Sandbox" back to "Disabled".
 
-.. image:: pppics/2.png
-
-Now login using your Steam account at sdonate.com and go to your account page. Click on "Change PayPal Email Address" and enter the email address of the PayPal account, and submit. Now, scroll down to "PayPal API Settings" and click on "Update PayPal API Settings".
-
-.. image:: pppics/4.png
-
-Copy the "API Username", "API Password" and "Signature" generated on PayPal into the corresponding fields on the SDonate account page, then click "Update PayPal API Credentials".
-
-.. image:: pppics/3.png
-
-.. image:: pppics/5.png
-
-Now go to https://developer.paypal.com/ and log in using your PayPal account, then click on "Dashboard", then click on "Account" under Sandbox at the left side.
-
-.. image:: pppics/6.png
-
-Now click on "Create Account" at the top right.
-
-.. image:: pppics/7.png
-
-Select "Business (Merchant Account)" as the account type and MAKE SURE THE COUNTRY USES THE SAME CURRENCY AS YOUR MAIN STORE CURRENCY. Enter your email address (you can use the same one as your main PayPal account) and enter a password, then click on Create Account.
-
-.. image:: pppics/8.png
-
-Now do the same again but this time choose "Personal (Buyer Account)" as the account type.
-
-Once you have created both Sandbox accounts, click on "Profile" under the BUSINESS account.
-
-.. image:: pppics/9.png
-
-Now go to your SDonate account page, click on "Update PayPal Sandbox API Settings", then enter these details and submit
-
-.. image:: pppics/10.png
-
-Setting up PayPal for "Credit Only" mode
---------------------------------------------------
-To set up PayPal using "Credit Only" mode, go to the "General Settings" tab of the admin dashboard, then change "Payment Mode" to "Credit Only", and enter your PayPal email address under "PayPal Email", then save.Now, sign into your PayPal account here: https://www.paypal.com/cgi-bin/customerprofileweb?cmd=_profile-pref and make sure your settings look the same as the picture below, then click “Save”.
-
-.. image:: pppics/11.png
-
-Testing PayPal
------------------------------
-Testing PayPal will only work if you've set it up for "Default" mode, sandbox purchases of credits won't work. To enable PayPal sandbox mode, change "PayPal Sandbox" to "Enabled" in "General Settings". Now, purchase a package and sign in using your PayPal sandbox PERSONAL account to test it works. When sandbox mode is enabled, purchases can be made but no real money will actually be exchanged, so you can test without spending any money, just be sure to disable it to allow real donations.
+.. warning::
+    Make sure you disable sandbox mode after you are done testing, otherwise people will be unable to purchase.
