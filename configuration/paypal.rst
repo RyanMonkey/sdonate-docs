@@ -1,14 +1,14 @@
 Setting Up PayPal
 =============================
 
-SDonate's method of dealing with PayPal payments has changed so you no longer need any API details. Existing users will need to follow these instructions to ensure there store doesn't stop working.
+SDonate's method of dealing with PayPal payments has changed so you no longer need any API details. Existing users will need to follow these instructions to ensure their store doesn't stop working.
 
 How to Set Up PayPal for SDonate
 ------------------------------------------------
 1. Sign into your PayPal account at https://paypal.com.
 2. Open `this link <https://www.paypal.com/cgi-bin/customerprofileweb?cmd=_profile-ipn-notify>`_ to go to the PayPal IPN settings
 3. Click on the "Choose IPN Settings" button
-4. Under "Notification URL" enter the URL of your store's "paypalipn.php" file. If you are using SDonate's free webstore, you can find this URL on your SDonate account page, next to "PayPal IPN URL". If you are using your own web server, enter the URL of your store and add "/paypalipn.php" at the end. So, if the URL of your store is "http://myamazingsite.com/donate/", enter "http://myamazingsite.com/donate/paypalipn.php" here.
+4. Under "Notification URL" enter the URL of your store's "paypalipn.php" file. If you are using SDonate's free webstore, you can find this URL on the SDonate account page, next to "PayPal IPN URL". If you are using your own web server, enter the URL of your store and add "/paypalipn.php" at the end. So, if the URL of your store is "http://myamazingsite.com/donate/", enter "http://myamazingsite.com/donate/paypalipn.php" here.
 5. Make sure "Receive IPN messages (Enabled)" is selected then click "Save".
 6. Go to https://sdonate.com and sign in, then go to "Account", then click on "Change PayPal Email Address".
 7. Enter the email address of your PayPal account here (make sure you're entering the PRIMARY address of your PayPal account, meaning if you have more than one email address on your PayPal account, use the primary one) and click "Submit".
@@ -29,7 +29,7 @@ If you want to test PayPal payments without using real money, you will need to s
 4. Leave the rest of the settings as default, then click "Create Account". You've just made a test buyer account.
 5. Create another account using the same settings as before, but this time set "Account Type" to "Business (Merchant Account)". This is your sandbox seller account.
 6. Go to https://sandbox.paypal.com and log in using your SELLER sandbox account you just created then click `here <https://www.sandbox.paypal.com/uk/cgi-bin/webscr?cmd=_profile-ipn-notify>`_ to go to the IPN settings for your sandbox account.
-7. Click "Edit Settings", then under "Notification URL" enter the URL of your store's "paypalipn.php" file. If you are using SDonate's free webstore, you can find this URL on your SDonate account page, next to "PayPal IPN URL". If you are using your own web server, enter the URL of your store and add "/paypalipn.php" at the end. So, if the URL of your store is "http://myamazingsite.com/donate/", enter "http://myamazingsite.com/donate/paypalipn.php" here.
+7. Click "Edit Settings", then under "Notification URL" enter the URL of your store's "paypalipn.php" file. If you are using SDonate's free webstore, you can find this URL on the SDonate account page, next to "PayPal IPN URL". If you are using your own web server, enter the URL of your store and add "/paypalipn.php" at the end. So, if the URL of your store is "http://myamazingsite.com/donate/", enter "http://myamazingsite.com/donate/paypalipn.php" here.
 8. Make sure "Receive IPN messages (Enabled)" is selected then click "Save".
 9. To Enable sandbox testing mode on your store, first go to https://sdonate.com and sign in, then go to "Account", then click on "Change PayPal Email Address". Enter the email address of your sandbox SELLER account and click "Submit". Now go to your store's admin dashboard then to "General Settings". Change "PayPal Sandbox" to "Enabled" and submit.
 10. To disable sandbox mode and enable real purchases go back to https://sdonate.com and change your PayPal email back to your real one, then go to your store's admin dashboard and change "PayPal Sandbox" back to "Disabled".
