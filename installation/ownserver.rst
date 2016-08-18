@@ -76,4 +76,8 @@ Google reCAPTCHA is a captcha system which prevents brute-force log in attempts.
 ------------------------------------------------
 On your web host, in the public folder (usually called "public", "public_html" or sometimes just "www"), create a folder for SDonate to go in. Now, using FTP or your web host's build-in file browser upload everything from INSIDE the "web" folder into the folder you just created. When this is done, navigate to http://<yourdomain.tld>/<yourfolder>/install.php to complete installation, so if your domain is "myamazingdomain.com" and the folder you created is called "donate", you'd go to http://myamazingdomain.com/donate/install.php. If all is well it will just say "Installation complete!", and if not, it will tell you what is wrong.
 
+8. Log into your store and check that the directory has been detected properly
+---------------------------------------------------------------------------------------------
+Now, log into your store using the admin account you selected then click on "Admin" at the top right. Now click on "Info" and it will tell you the URL that SDonate has detected it has been installed in. If this is incorrect, you will need to type the correct URL next to $dir in config.php. It is important that this is correct for PayPal payments to work.
+
 You have now installed SDonate on your web server! You should look at the section on setting up payment information to accept payments.
