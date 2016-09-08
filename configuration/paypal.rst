@@ -10,8 +10,10 @@ How to Set Up PayPal for SDonate
 3. Click on the "Choose IPN Settings" button
 4. Under "Notification URL" enter the URL of your store's "paypalipn.php" file. If you are using SDonate's free webstore, you can find this URL on the SDonate account page, next to "PayPal IPN URL". If you are using your own web server, enter the URL of your store and add "/paypalipn.php" at the end. So, if the URL of your store is "http://myamazingsite.com/donate/", enter "http://myamazingsite.com/donate/paypalipn.php" here.
 5. Make sure "Receive IPN messages (Enabled)" is selected then click "Save".
-6. Go to https://sdonate.com and sign in, then go to "Account", then click on "Change PayPal Email Address".
-7. Enter the email address of your PayPal account here (make sure you're entering the PRIMARY address of your PayPal account, meaning if you have more than one email address on your PayPal account, use the primary one) and click "Submit".
+6. Click on `this link <https://www.paypal.com/cgi-bin/customerprofileweb?cmd=_profile-pref>`_ to go to the PayPal blocked payments settings page. Make sure your settings look like this:
+.. image:: paypalsettings.png
+7. Go to https://sdonate.com and sign in, then go to "Account", then click on "Change PayPal Email Address".
+8. Enter the email address of your PayPal account here (make sure you're entering the PRIMARY address of your PayPal account, meaning if you have more than one email address on your PayPal account, use the primary one) and click "Submit".
 
 Test PayPal/How to Set Up PayPal Sandbox (Optional but Recommended)
 -------------------------------------------------------------------------
