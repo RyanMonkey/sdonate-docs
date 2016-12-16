@@ -9,6 +9,8 @@ You can use the following variables in command parameters to replace it with the
 
 * **{{VAR=STEAMID32}}** - The user's 32-bit Steam ID i.e. STEAM_0:0:111010
 
+* **{{VAR=STEAMID3}}** - The user's SteamID3 i.e. U:1:222020
+
 * **{{VAR=STEAMUSERNAME}}** - The user's Steam username (NOTE: This should not be used to assign packages, since more than one user can have the same Steam username, this should only be used for things like sending a personalised message such as "Thanks for purchasing, {{VAR=STEAMUSERNAME}}")
 
 * **{{VAR=Minecraft_Username}}** - The user's Minecraft username.
